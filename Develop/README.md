@@ -16,22 +16,30 @@
   - [Questions](#questions)
 
   ## Description
-  This project generates README.md files using node and npm inquirer
+  - This app generates README.md files using the command line.
+  - Users are prompted with questions that they can answer.
+  - User's answers are then added to a template and used to create the file.
+  - Once a license is chosen, its badge will appear under the title of the file.
+  - A link to the chosen license will be added to the License section.
+  - Links in the table of contents take the user to the corresponding section.
+  - [ Video link](https://drive.google.com/file/d/1AKkGT7Yh5xzplMMJqgTtfwYmNdO8SThJ/view)
 
   ## Installation
-  Clone the repo, have node js, and npm inquirer 8.2.4
+  - node js
+  - npm install inquirer@8.2.4
+  - git clone https://github.com/YemnyFeliz/Readme-Generator.git
 
   ## Usage
-  to easity generate README files
+  ![Demo](./assets/demo.gif)
 
   ## Credits
-  N/A
+  The starter code was provided by Grace Choi and Xander Rapstine
 
   ## License
   This project is licensed under https://opensource.org/licenses/MIT license
 
   ## Contributing
-  Add more licenses and conditions to the answers
+  Other developers may contribute by making certain questions to require an answer and adding more lincenses.
 
   ## Tests
   N/A
